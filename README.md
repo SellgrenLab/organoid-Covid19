@@ -1,7 +1,7 @@
 # Organoid-Covid19 Infectivity
 
 Welcome to the Github repository associated to the biorxiv preprint: 
-**SARS-CoV-2 Neurotropism and Single Cell Responses in Brain Organoids Containing Innately Developing Microglia 
+**SARS-CoV-2 Neurotropism and Single Cell Responses in Brain Organoids Containing Innately Developing Microglia**
 
 Samudyata1#, Ana Osório Oliveira1#, Susmita Malwade1, Nuno Rufino de Sousa2, Sravan Goparaju1, Funda Orhan1, Laura Steponaviciute2, Steven S Sheridan3, Roy H Perlis3, Antonio Rothfuchs2, Carl M. Sellgren1,4* 
 
