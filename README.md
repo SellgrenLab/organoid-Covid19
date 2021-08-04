@@ -28,9 +28,10 @@ Neuropsychiatric manifestations are common in both acute and post-acute phase of
 - oragnoid_env.yml: Conda environment file containing all softwares and packgaes along with their versions used and required for reproducibility.  
 - Preprocessing.R: R Code to process 10X cellranger output files for all samples prior to downstream analysis. 
 - Initial_clustering.R: R code to perform quality control on cells and genes and removal of doublets. Downstream processing to perform normalization, dimensionality reduction, scaling and first round of clustering to annotate celltypes was done using Seurat.
-- Final_clustering: Second round of clustering upon cell cycle regression and integration of all samples and final celltype annotations used in this study using identified conserved cluster markers. Transcriptomic comparison to other datasets performed was also included.
+- Final_clustering.R: Second round of clustering upon cell cycle regression and integration of all samples and final celltype annotations used in this study using identified conserved cluster markers. Transcriptomic comparison to other datasets performed was also included.
 - DifferentialExpression_analysis: Code to perform DE analysis on celltypes using Seurat as well as a pseudo-bulk approach in DESeq2. Functional analysis of pathwyas obtained via GSEA.
-- Astrocyte_subclustering: Code applied to obtain subclusters of celltypes such as astrocyte or choroid plexus (as seen in the study) across all experimental condition. 
+- Astrocyte_subclustering.R: Code applied to obtain subclusters of celltypes such as astrocyte or choroid plexus (as seen in the study) across all experimental condition. 
+- Olag_MG_clusteroverlap.R: Comparison of organoid-grown microglial states upon infection to Microglia transcriptomic identitites found by Olah et al,2020.
 
 
 
