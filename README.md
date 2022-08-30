@@ -1,12 +1,13 @@
 # Organoid-Covid19 Neurotropism
 
 Welcome to the Github repository associated to the biorxiv preprint: 
-**SARS-CoV-2 promotes microglial synapse elimination in human brain organoids**, Samudyata, Ana O. Oliveira, Susmita Malwade et al. 
+
+**SARS-CoV-2 promotes microglial synapse elimination in human brain organoids**, *Samudyata, Ana O. Oliveira, Susmita Malwade et al.* 
 
 
 doi: https://doi.org/10.1101/2021.07.07.451463
 
-Corresponding Author: carl.sellgren@ki.se
+*Corresponding Author: carl.sellgren@ki.se*
 
 ## Abstract
  
@@ -24,6 +25,6 @@ Neuropsychiatric manifestations are common in both the acute and post-acute phas
 - Astrocyte_subclustering.R: Code applied to obtain subclusters of celltypes such as astrocyte or choroid plexus (as seen in the study) across all experimental condition. 
 - Olag_MG_clusteroverlap.R: Comparison of organoid-grown microglial states upon infection to Microglia transcriptomic identitites found by Olah et al,2020.
 
-Note: This repository is only intended to provide insights into the analysis related to the key findings of the study and is not maintained or designed to be run directly. If you have any questions/doubts, please don't hesitate to contact the authors or raise an issue on the github repository. 
+*Note: This repository is only intended to provide insights into the analysis related to the key findings of the study and is not maintained or designed to be run directly. If you have any questions/doubts, please don't hesitate to contact the authors or raise an issue on the github repository.*
 
 
