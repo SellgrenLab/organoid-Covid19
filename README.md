@@ -1,17 +1,9 @@
-# Organoid-Covid19 Infectivity
+# Organoid-Covid19 Neurotripism
 
 Welcome to the Github repository associated to the biorxiv preprint: 
-**SARS-CoV-2 Neurotropism and Single Cell Responses in Brain Organoids Containing Innately Developing Microglia**
+**SARS-CoV-2 promotes microglial synapse elimination in human brain organoids**
 
-Samudyata1#, Ana Osório Oliveira1#, Susmita Malwade1, Nuno Rufino de Sousa2, Sravan Goparaju1, Funda Orhan1, Laura Steponaviciute2, Steven S Sheridan3, Roy H Perlis3, Antonio Rothfuchs2, Carl M. Sellgren1,4* 
-
-1Department of Physiology and Pharmacology, Karolinska Institute, Stockholm, Sweden 
-
-2Department of Microbiology, Tumor and Cell Biology, Karolinska Institute, Stockholm, Sweden 
-
-3Center for Genomic Medicine and Department of Psychiatry, Massachusetts General Hospital, Boston, MA, USA. 
-
-4Centre for Psychiatry Research, Department of Clinical Neuroscience, Karolinska Institutet & Stockholm Health Care Services, Stockholm County Council, Karolinska University Hospital, Stockholm, Sweden.* 
+Samudyata1*, Ana O. Oliveira1*, Susmita Malwade1* et al.  
 
 doi: https://doi.org/10.1101/2021.07.07.451463
 
@@ -19,12 +11,12 @@ Corresponding Author:  carl.sellgren@ki.se
 
 ## Abstract
  
-Neuropsychiatric manifestations are common in both acute and post-acute phase of SARS-CoV-2 infection, but the mechanism of these effects is unknown. Here, we derive human brain organoids with innately developing microglia to investigate the cellular responses to SARS-CoV-2 infection on a single cell level. We find evidence of limited tropism to SARS-CoV-2 for all major cell types and observe extensive neuronal cell death that also include non-infected cells. Single cell transcriptome profiling reveals distinct responses in microglia and astrocytes that share features with cellular states observed in neurodegenerative diseases, includes upregulation of genes with relevance for synaptic stripping, and suggests altered blood brain barrier integrity. Across all cell types, we observe a global translational shut-down as well as altered carbohydrate metabolism and cellular respiration. Together, our findings provide insights into cellular responses of the resident brain immune cells to SARS-CoV-2 and pinpoint mechanisms that may be of relevance for the neuropathological changes observed in COVID-19 patients. 
+Neuropsychiatric manifestations are common in both the acute and post-acute phase of SARS-CoV-2 infection, but the mechanisms of these effects are unknown. In a newly established brain organoid model with innately developing microglia, we demonstrate that SARS-CoV-2 infection initiate neuronal cell death and cause a loss of post-synaptic termini. Despite limited neurotropism and a decelerating viral replication, we observe a threefold increase in microglial engulfment of postsynaptic termini after SARS-CoV-2 exposure. We define the microglial responses to SARS-CoV-2 infection by single cell transcriptomic profiling and observe an upregulation of interferon-responsive genes as well as genes promoting migration and synapse engulfment. To a large extent, SARS-CoV-2 exposed microglia adopt a transcriptomic profile overlapping with neurodegenerative disorders that display an early synapse loss as well as an increased incident risk after a SARS-CoV-2 infection. Our results reveal that brain organoids infected with SARS-CoV-2 display disruption in circuit integrity via microglia-mediated synapse elimination and identifies a potential novel mechanism contributing to cognitive impairments in patients recovering from COVID-19.
  
- 
- 
+
  
  ### You will find here
+ 
 - oragnoid_env.yml: Conda environment file containing all softwares and packgaes along with their versions used and required for reproducibility.  
 - Preprocessing.R: R Code to process 10X cellranger output files for all samples prior to downstream analysis. 
 - Initial_clustering.R: R code to perform quality control on cells and genes and removal of doublets. Downstream processing to perform normalization, dimensionality reduction, scaling and first round of clustering to annotate celltypes was done using Seurat.
@@ -33,6 +25,6 @@ Neuropsychiatric manifestations are common in both acute and post-acute phase of
 - Astrocyte_subclustering.R: Code applied to obtain subclusters of celltypes such as astrocyte or choroid plexus (as seen in the study) across all experimental condition. 
 - Olag_MG_clusteroverlap.R: Comparison of organoid-grown microglial states upon infection to Microglia transcriptomic identitites found by Olah et al,2020.
 
-
+Note: This repository is only intended to provide insights into the analysis related to the key findings of the study and is not maintained or designed to be run directly. If you have any questions/doubts, please don't hesitate to contact the authors or raise an issue on the github repository. 
 
 
