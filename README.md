@@ -1,6 +1,6 @@
 # Organoid-Covid19 Neurotropism
 
-Welcome to the Github repository associated to the biorxiv preprint: 
+Welcome to the Github repository associated to the publication: 
 
 **SARS-CoV-2 promotes microglial synapse elimination in human brain organoids**, *Samudyata, Ana O. Oliveira, Susmita Malwade et al.* 
 
