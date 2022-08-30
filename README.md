@@ -13,8 +13,14 @@ doi: https://doi.org/10.1101/2021.07.07.451463
  
 Neuropsychiatric manifestations are common in both the acute and post-acute phase of SARS-CoV-2 infection, but the mechanisms of these effects are unknown. In a newly established brain organoid model with innately developing microglia, we demonstrate that SARS-CoV-2 infection initiate neuronal cell death and cause a loss of post-synaptic termini. Despite limited neurotropism and a decelerating viral replication, we observe a threefold increase in microglial engulfment of postsynaptic termini after SARS-CoV-2 exposure. We define the microglial responses to SARS-CoV-2 infection by single cell transcriptomic profiling and observe an upregulation of interferon-responsive genes as well as genes promoting migration and synapse engulfment. To a large extent, SARS-CoV-2 exposed microglia adopt a transcriptomic profile overlapping with neurodegenerative disorders that display an early synapse loss as well as an increased incident risk after a SARS-CoV-2 infection. Our results reveal that brain organoids infected with SARS-CoV-2 display disruption in circuit integrity via microglia-mediated synapse elimination and identifies a potential novel mechanism contributing to cognitive impairments in patients recovering from COVID-19.
  
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/56251389/187479169-e74aac1d-3d5b-4b6d-8b33-0b7e67805d2a.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/56251389/187480588-aa1af512-f1cd-4de5-ac20-6d7b1a54602d.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/56251389/187479107-21443e85-04bc-4d7d-8805-ccdf9d5f7e12.png" width="300" /> 
+</p>
 
- 
+
+
  ### You will find here
  
 - oragnoid_env.yml: Conda environment file containing all softwares and packgaes along with their versions used and required for reproducibility.  
